@@ -34,3 +34,4 @@ X_train = X[train_index]
 clf = svm.SVC(kernel='linear', C=1, random_state=42)
 scores = cross_val_score(clf, X, y, cv=5)
 
+a= 'nhamco tinh viet them vao day haha'
